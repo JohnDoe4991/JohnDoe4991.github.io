@@ -156,6 +156,6 @@ header.p-section {
   justify-content: space-around;
 }
 
-.project-img {
+.col-sm-4 img {
   height: 285px;
 }
