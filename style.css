@@ -153,5 +153,9 @@ header.p-section {
 
 .project-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.project-img {
+  height: 285px;
 }
