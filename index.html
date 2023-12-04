@@ -289,12 +289,17 @@
 
   <section id="snake-game" class="p-section">
     <div class="container">
-      <h2 class="mb-5">Snake</h2>
-      <div id="game-container" class="game-container">
-        <p class="start-instruction">Click inside this box to start the game!</p>
-      </div>
+        <h2 class="mb-5">Play Snake</h2>
+        <div id="score">Score: 0</div> <!-- Score display -->
+        <!-- Game container with click event listener -->
+        <div id="snake-game-container" onclick="startGame()">
+            <canvas id="snake-canvas" width="400" height="400"></canvas>
+        </div>
+        <script src="snake.js"></script>
     </div>
-  </section>
+</section>
+
+
 
   <footer class='bg-black p-5 text-white'>
     <div class='container'>
