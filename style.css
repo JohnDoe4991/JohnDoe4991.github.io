@@ -159,3 +159,12 @@ header.p-section {
 .col-sm-4 img {
   height: 285px;
 }
+
+.photo {
+  height: 385px;
+}
+
+.photoname{
+  display: flex;
+  flex-direction: column;
+}
