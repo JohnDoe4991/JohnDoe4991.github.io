@@ -8,6 +8,10 @@ blockquote {
   font-family: 'DM Serif Display', serif;
 }
 
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_uX5RIA-ZvVgpNREwuRe-PeFcHnFCsl7nA&usqp=CAU");
+}
+
 h1, .h1 {
   font-size: 65px;
 }
