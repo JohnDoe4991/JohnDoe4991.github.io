@@ -168,3 +168,15 @@ header.p-section {
   height: 385px;
   border-radius: 224px;
 }
+
+.lead{
+  text-shadow: 1px 1px 2px #00bc65;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.lead ul {
+  text-shadow: 1px 1px 2px #00bc65;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
