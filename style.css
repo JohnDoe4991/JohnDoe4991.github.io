@@ -162,9 +162,5 @@ header.p-section {
 
 .photo {
   height: 385px;
-  width: 385px; /* Ensure the width matches the height for a perfect circle */
-  border-radius: 50%; /* Make it circular */
-  border: 5px solid #fff; /* Add a white border for a pop effect */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Apply a shadow for depth */
+  border-radius: 224px;
 }
-
