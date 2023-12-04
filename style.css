@@ -164,7 +164,3 @@ header.p-section {
   height: 385px;
 }
 
-.photoname{
-  display: flex;
-  flex-direction: column;
-}
