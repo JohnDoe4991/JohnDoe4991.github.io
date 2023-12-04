@@ -180,3 +180,31 @@ header.p-section {
   font-size: 1.25rem;
   font-weight: 400;
 }
+
+/* CSS for the Snake game */
+#snake-game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+#snake-canvas {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Styling for the snake and food */
+.canvas-element {
+  fill: green; /* Color for the snake segments */
+  stroke: #333;
+  stroke-width: 2;
+}
+
+.food-element {
+  fill: red; /* Color for the food */
+  stroke: #333;
+  stroke-width: 2;
+}
+
+/* Add additional styles as needed to match your design */
