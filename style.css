@@ -170,16 +170,20 @@ header.p-section {
 }
 
 .lead{
-  text-shadow: 1px 1px 2px #ffffc4;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.lead1{
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: white;
+}
+
+.lead1 ul {
   font-size: 1.25rem;
   font-weight: 400;
   background-color: white;
-}
-
-.lead ul {
-  text-shadow: 1px 1px 2px #ffffc4;
-  font-size: 1.25rem;
-  font-weight: 400;
 }
 
 /* CSS for the Snake game */
