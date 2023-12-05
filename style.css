@@ -173,6 +173,7 @@ header.p-section {
   text-shadow: 1px 1px 2px #ffffc4;
   font-size: 1.25rem;
   font-weight: 400;
+  background-color: white;
 }
 
 .lead ul {
