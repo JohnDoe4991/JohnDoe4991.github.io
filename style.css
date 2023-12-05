@@ -196,15 +196,19 @@ header.p-section {
 
 /* Styling for the snake and food */
 .canvas-element {
-  fill: green; /* Color for the snake segments */
+  fill: #0d6efd;
   stroke: #333;
   stroke-width: 2;
 }
 
 .food-element {
-  fill: red; /* Color for the food */
+  fill: red;
   stroke: #333;
   stroke-width: 2;
 }
 
-/* Add additional styles as needed to match your design */
+.container-snake{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
