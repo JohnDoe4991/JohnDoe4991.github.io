@@ -484,7 +484,7 @@ body { background: var(--smoky-black); }
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: black; }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
