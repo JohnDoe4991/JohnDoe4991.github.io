@@ -1857,6 +1857,10 @@ h2.underline::after {
 }
 
 /* Project Card Styling */
+.project-container .col-sm-6 {
+  margin-bottom: 30px; /* Add spacing between rows */
+}
+
 .project-card {
   border: none;
   border-radius: 10px;
@@ -1864,6 +1868,7 @@ h2.underline::after {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #fff;
+  margin-bottom: 20px; /* Add spacing between the cards */
 }
 
 .project-card:hover {
