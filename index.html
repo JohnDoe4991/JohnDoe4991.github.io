@@ -3,41 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Dorsey</title>
+  <title>John Dorsey | Software Engineer</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlT6D+G5k8M8JzEXiLk0eW1uZFG2s1CxUMW2C6ePbDxO8O69C5N7E2f4jtk5U5" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Custom CSS -->
-  <link href="style.css" rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://galictogear.s3.us-west-1.amazonaws.com/favicon.ico" type="image/x-icon">
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-  <!-- Dark Mode Toggle Script -->
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-8O++Sx8LeZh/0aF3e3e9S2yQ0iY1oVhdzFn5gE4ibkHZ1gFA6iz9w8jGpQfSA5kCk" crossorigin="anonymous"></script>
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="bi-lightning-charge"></i> John Dorsey</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><i class="bi bi-lightning-charge"></i> John Dorsey</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Projects</a>
           </li>
@@ -47,182 +29,91 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#snake-game">Snake Game</a>
-          </li>
         </ul>
-
-        <button class="btn btn-outline-dark me-2" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-
-        <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
+        <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-primary ms-3'><i class="bi bi-linkedin"></i> LinkedIn</a>
       </div>
     </div>
   </nav>
 
-  <!-- Header Section -->
-  <header class='text-center p-section'>
-    <div class='container-fluid'>
-      <div class='row'>
-        <div class='col-md-6 offset-md-3'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/jom.jpeg" class='photo'>
-          <h1>Combining <span class='marker-highlight'>technology,</span> writing, and creative <span class='marker-highlight'>problem-solving</span> to positively impact others.</h1>
-          <p class='leader mb-5'>John seamlessly integrates his writing prowess with software engineering skills to inspire positive change and connect people on a global scale.</p>
-
-          <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
-        </div>
-      </div>
+  <header class="text-center bg-primary text-white p-5 p-md-7 mb-4">
+    <div class="container">
+      <img src="https://galictogear.s3.us-west-1.amazonaws.com/jom.jpeg" class="rounded-circle mb-4" alt="John Dorsey">
+      <h1 class="display-4">Innovative Solutions through <span class="text-warning">Technology</span> and <span class="text-warning">Creativity</span></h1>
+      <p class="lead mb-4">Combining technical expertise with creative problem-solving to drive impactful change.</p>
+      <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-light btn-lg'><i class="bi bi-linkedin"></i> Connect on LinkedIn</a>
     </div>
   </header>
 
-  <!-- Employment History Section -->
-  <section id='company' class='p-section'>
-    <div class='container text-center'>
-      <label class='sup mb-3 text-muted'>Employment History</label>
-
-      <div class='row justify-content-center d-flex align-items-center'>
-        <div class='col-2'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/JunkLuggersLogo.webp" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/anca.jpeg" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/henrybuilt.png" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/birthright.png" class='px-3'>
-        </div>
-        <div class='col-2'>
-          <img src="https://galictogear.s3.us-west-1.amazonaws.com/sylvan.png" class='px-3'>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id='portfolio' class='p-section bg-light'>
+  <section id='portfolio' class='py-5'>
     <div class='container'>
-      <sup>Portfolio</sup>
-      <h2 class='mb-5 underline'>Featured Projects</h2>
-
-      <div class='project-container row'>
-        <div class='col-md-6 mb-4'>
-          <div class='card h-100'>
-            <div class='background-image' style='background-image: url(img/portfolio-endit-movement.png)'>
-              <img class="project-img" src='https://galictogear.s3.us-west-1.amazonaws.com/port1.png'>
-            </div>
-            <div class='card-body'>
-              <h3>Galactico Gear</h3>
-              <p class='mb-3'>GalacticoGear is a dynamic e-commerce platform, combining a Flask backend with a React frontend powered by Redux for robust state management. Our platform empowers users with comprehensive functionality, enabling them to effortlessly create, review, delete, and explore a wide range of products. Our intuitive search bar facilitates efficient product discovery, while the review system allows users to provide valuable feedback and update or remove their reviews as needed. Additionally, our fully functional shopping cart feature provides a seamless shopping experience, allowing users to manage their selections with ease. Furthermore, users can curate their favorite product selections, accessible through a dedicated Favorites page, enhancing their personalized shopping experience.</p>
-            </div>
-            <div class='card-footer'>
-              <a href='https://github.com/JohnDoe4991/GalacticoGear' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a href='https://galacticogear.onrender.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-md-6 mb-4'>
-          <div class='card h-100'>
-            <div class='background-image' style='background-image: url(img/portfolio-growing-leaders.png)'>
-              <img class="project-img" src='https://galictogear.s3.us-west-1.amazonaws.com/port2.png'>
-            </div>
-            <div class='card-body'>
-              <h3>ShutterScape</h3>
-              <p class='mb-3'>Shutterscape stands as a meticulously crafted replica of the renowned photo-sharing platform Flickr. This sophisticated platform empowers users with a suite of versatile features, enabling them to seamlessly create, update, and manage their photo posts. Users have the freedom to curate photo albums, effortlessly group photo posts, and manage album contents by adding or removing photos. In addition to this, our platform fosters engaging interactions, allowing users to leave insightful comments on photo posts, with the flexibility to update or remove comments as needed. Moreover, users can curate a collection of their most cherished posts by marking them as "Favorites," creating a curated showcase on their user profile page. Our commitment to user experience extends further with the incorporation of a dynamic search feature and the use of tags, facilitating intuitive navigation and enhancing the overall user journey.</p>
-            </div>
-            <div class='card-footer'>
-              <a href='https://github.com/ryanfour1637/ShutterScape' class='btn btn-sm btn-light'><i class="bi-github"></i> Code</a>
-              <a href='https://shutterscape.onrender.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Demo</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id='about' class='p-section'>
-    <div class='container container-lg'>
-      <sup>About</sup>
-      <h2 class='mb-5 underline'>About Me</h2>
-
-      <p>John Dorsey is a Full Stack Developer who combines technical expertise with a passion for writing to create meaningful and impactful solutions. With a strong foundation in JavaScript, React, Python, and AWS, John thrives on tackling complex challenges and delivering high-quality software that makes a difference.</p>
-
-      <canvas id="skills-chart" width="400" height="400"></canvas>
-    </div>
-  </section>
-
-  <!-- Snake Game Section -->
-  <section id='snake-game' class='p-section'>
-    <div class='container'>
-      <sup>Game</sup>
-      <h2 class='mb-5 underline'>Snake Game</h2>
-      <div id="gameCanvas" style="border:1px solid black; width:400px; height:400px;"></div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id='contact' class='p-section bg-light'>
-    <div class='container'>
-      <sup>Contact</sup>
-      <h2 class='mb-5 underline'>Get in Touch</h2>
-
+      <h2 class='text-center mb-5'>Featured Projects</h2>
       <div class='row'>
-        <div class='col-md-6 mb-4'>
-          <p>If you'd like to collaborate on a project or just want to say hi, feel free to drop me a message below.</p>
+        <div class='col-lg-6 mb-4'>
+          <div class='card shadow-sm'>
+            <img src='https://galictogear.s3.us-west-1.amazonaws.com/port1.png' class='card-img-top' alt='Galactico Gear'>
+            <div class='card-body'>
+              <h5 class='card-title'>Galactico Gear</h5>
+              <p class='card-text'>A dynamic e-commerce platform featuring a Flask backend and a React frontend. Users can create, review, delete, and explore a wide range of products, with additional features like a shopping cart and a Favorites page.</p>
+              <a href='https://github.com/JohnDoe4991/GalacticoGear' class='btn btn-outline-primary'><i class="bi bi-github"></i> Code</a>
+              <a href='https://galacticogear.onrender.com/' class='btn btn-primary'><i class="bi bi-link"></i> Demo</a>
+            </div>
+          </div>
         </div>
-        <div class='col-md-6'>
-          <form action="https://formsubmit.co/your-email-address" method="POST">
-            <div class='form-group mb-3'>
-              <label for='name'>Name</label>
-              <input type='text' class='form-control' id='name' name='name' required>
+        <div class='col-lg-6 mb-4'>
+          <div class='card shadow-sm'>
+            <img src='https://galictogear.s3.us-west-1.amazonaws.com/port2.png' class='card-img-top' alt='ShutterScape'>
+            <div class='card-body'>
+              <h5 class='card-title'>ShutterScape</h5>
+              <p class='card-text'>A photo-sharing platform inspired by Flickr, enabling users to create and manage photo posts, albums, and comments. Features include dynamic search, tags, and a Favorites page for curated content.</p>
+              <a href='https://github.com/ryanfour1637/ShutterScape' class='btn btn-outline-primary'><i class="bi bi-github"></i> Code</a>
+              <a href='https://shutterscape.onrender.com/' class='btn btn-primary'><i class="bi bi-link"></i> Demo</a>
             </div>
-            <div class='form-group mb-3'>
-              <label for='email'>Email</label>
-              <input type='email' class='form-control' id='email' name='email' required>
-            </div>
-            <div class='form-group mb-3'>
-              <label for='message'>Message</label>
-              <textarea class='form-control' id='message' name='message' rows='4' required></textarea>
-            </div>
-            <button type='submit' class='btn btn-primary'>Send Message</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class='bg-dark text-white text-center py-4'>
-    <p class='mb-0'>&copy; 2024 John Dorsey. All rights reserved.</p>
+  <section id='about' class='bg-light py-5'>
+    <div class='container'>
+      <h2 class='text-center mb-5'>About Me</h2>
+      <div class='row'>
+        <div class='col-md-4 mb-4'>
+          <img src="https://galictogear.s3.us-west-1.amazonaws.com/jom.jpeg" class='img-fluid rounded-circle' alt='John Dorsey'>
+        </div>
+        <div class='col-md-8'>
+          <p class='lead'>I'm John Dorsey, a software engineer with a unique blend of creative and technical skills. I specialize in developing innovative solutions using technologies like React, Python, and Flask. My background in writing enriches my approach to coding, allowing me to create well-crafted and user-centric applications.</p>
+          <p>I am passionate about combining technology with storytelling to make a global impact. My journey from writing to engineering has equipped me with a versatile skill set and a commitment to continuous learning. I am excited to bring my expertise to a dynamic team where I can contribute to impactful projects.</p>
+          <ul class='list-unstyled'>
+            <li><strong>Languages:</strong> JavaScript, Python</li>
+            <li><strong>Technologies:</strong> React, Flask, AWS</li>
+            <li><strong>Achievements:</strong> Winner of a prestigious writing competition, completed App Academy's Full-Time Coding Bootcamp</li>
+          </ul>
+          <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-primary mt-3'><i class="bi bi-linkedin"></i> Connect on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='contact' class='py-5'>
+    <div class='container'>
+      <h2 class='text-center mb-5'>Get in Touch</h2>
+      <p class='text-center lead'>Feel free to reach out for collaborations, inquiries, or just a friendly chat. I'm always excited to connect with fellow professionals and enthusiasts!</p>
+      <div class='text-center'>
+        <a href='mailto:john.dorsey@example.com' class='btn btn-primary'><i class="bi bi-envelope"></i> Email Me</a>
+        <a target='_blank' href='https://www.linkedin.com/in/johndorsey1994/' class='btn btn-outline-primary ms-2'><i class="bi bi-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class='bg-dark text-white py-3'>
+    <div class='container text-center'>
+      <p class='mb-0'>Built with <a href='https://getbootstrap.com/' class='text-white' target='_blank'>Bootstrap</a> | Developed by <a href='https://www.linkedin.com/in/johndorsey1994/' class='text-white' target='_blank'>John Dorsey</a></p>
+      <ul class='list-inline mt-2'>
+        <li class='list-inline-item'><a href='https://www.linkedin.com/in/johndorsey1994/' class='text-light'><i class="bi bi-linkedin"></i></a></li>
+        <li class='list-inline-item'><a href='https://github.com/JohnDoe4991' class='text-light'><i class="bi bi-github"></i></a></li>
+      </ul>
+    </div>
   </footer>
-
-  <!-- Chart.js for Skill Radar Chart -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script>
-    const ctx = document.getElementById('skills-chart').getContext('2d');
-    new Chart(ctx, {
-        type: 'radar',
-        data: {
-            labels: ['React', 'JavaScript', 'Python', 'Flask', 'AWS'],
-            datasets: [{
-                label: 'Skill Level',
-                data: [90, 85, 80, 75, 70],
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scale: {
-                ticks: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-  </script>
-
 </body>
 </html>
