@@ -3,8 +3,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f8f9fa;
   color: #333;
-  padding-top: 56px;
-  cursor: url('custom-cursor.png'), auto;
+  padding-top: 56px; /* Adjust for fixed navbar */
 }
 
 body.dark-mode {
@@ -14,10 +13,6 @@ body.dark-mode {
 
 body.dark-mode a {
   color: #bb86fc;
-}
-
-body.dark-mode header {
-  background-color: #212529;
 }
 
 /* Navbar */
@@ -35,9 +30,8 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 
 /* Header */
 header {
-  padding: 100px 0;
-  text-align: center;
   background-color: #ffffff;
+  text-align: center;
 }
 
 body.dark-mode header {
@@ -47,74 +41,34 @@ body.dark-mode header {
 header h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
-header p {
+header .lead {
   font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 header img {
   border-radius: 50%;
-  margin-bottom: 20px;
   width: 150px;
   height: 150px;
   object-fit: cover;
+  margin-bottom: 1rem;
 }
 
-/* Project Section */
-.project-container .card {
-  transition: transform 0.3s ease;
+/* Sections */
+section {
+  padding: 3rem 0;
 }
 
-.project-container .card:hover {
-  transform: translateY(-10px);
-}
-
-.project-container .background-image {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-.project-container .project-img {
-  width: 100%;
-  height: auto;
-}
-
-/* Section Styles */
-.p-section {
-  padding: 60px 0;
-}
-
-.p-section h2 {
+section h2 {
   font-size: 2rem;
-  margin-bottom: 30px;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-.p-section sup {
-  font-size: 1rem;
-  color: #6c757d;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: block;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.p-section.bg-light {
-  background-color: #f8f9fa;
-}
-
-body.dark-mode .p-section.bg-light {
-  background-color: #343a40;
-}
-
-.p-section .underline {
-  text-decoration: underline;
-}
-
-/* Employment History Logos */
+/* Employment History */
 #company img {
   max-width: 100px;
   height: auto;
@@ -124,6 +78,41 @@ body.dark-mode .p-section.bg-light {
 
 #company img:hover {
   opacity: 1;
+}
+
+/* Portfolio */
+#portfolio .card {
+  transition: transform 0.3s ease;
+}
+
+#portfolio .card:hover {
+  transform: translateY(-5px);
+}
+
+#portfolio .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* About */
+#about .row {
+  align-items: center; /* Vertically center content */
+}
+
+#skills-chart {
+  max-width: 100%; /* Make chart responsive */
+  height: auto;
+}
+
+/* Contact */
+#contact form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #ffffff;
 }
 
 /* Dark Mode Toggle */
@@ -137,35 +126,4 @@ body.dark-mode .btn-outline-dark {
   background-color: #333;
   color: #f8f9fa;
   border-color: #f8f9fa;
-}
-
-/* Footer */
-footer {
-  background-color: #212529;
-  color: #ffffff;
-}
-
-/* Animations */
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Custom Cursor */
-a:hover {
-  cursor: url('custom-cursor-hover.png'), auto;
-}
-
-/* Chart.js Styles */
-#skills-chart {
-  margin-top: 40px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
 }
